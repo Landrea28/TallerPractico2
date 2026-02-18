@@ -11,7 +11,7 @@ client = genai.Client(api_key=API_KEY)
 
 # Definir la instrucción del sistema y la consulta
 response = client.models.generate_content(
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash",
     contents="Explique qué es la 'Inferencia en IA' en menos de 50 palabras."
 )
 

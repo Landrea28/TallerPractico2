@@ -32,7 +32,7 @@ history = [
 
 # Inicialización del chat
 chat = client.chats.create(
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash",
     config=types.GenerateContentConfig(
         max_output_tokens=500,
         system_instruction=sys_instruct
